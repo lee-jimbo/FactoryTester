@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_dialog_items">
+        <item>成功</item>
+        <item>失败</item>
+    </string-array>
+</resources>

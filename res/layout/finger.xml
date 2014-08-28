@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Shanghai Basewin Technology Co.,Ltd -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rfid_logo"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/finger_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Success"
+            android:layout_weight="0.5"
+            android:textSize="10.0dip" />
+
+        <Button
+            android:id="@+id/finger_failed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Failed"
+            android:layout_weight="0.5"
+            android:textSize="10.0dip" />
+    </LinearLayout>
+
+    
+    
+    
+    
+    <ScrollView android:id="@id/scroll_view_info"
+        android:orientation="vertical"
+        android:layout_weight="1.0"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:id="@id/text_view_info"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView android:id="@+id/image_fingerprint"
+        android:layout_width="128dip"
+        android:layout_height="144dip" 
+    />
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/finger_button_get_sysinfo"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/finger_text_get_sysinfo" />
+
+        <Button android:id="@+id/finger_button_connect_test"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/finger_text_connect_test" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/finger_button_erase_flash"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/finger_text_erase_flash" 
+            android:visibility="gone"/>
+
+        <Button android:id="@+id/finger_button_get_image"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/finger_text_get_image" />
+    </LinearLayout>
+    
+</LinearLayout>

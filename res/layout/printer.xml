@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Shanghai Basewin Technology Co.,Ltd -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="bottom"
+    android:background="#e6e6e6"
+    android:orientation="vertical"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_weight="0.2"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/button_print"
+        android:layout_weight="0.4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/begin_print"
+        android:textSize="40.0dip"
+        />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/print_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Success"
+            android:layout_weight="0.5"
+            android:textSize="25.0dip" />
+
+        <Button
+            android:id="@id/print_failed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Failed"
+            android:layout_weight="0.5"
+            android:textSize="25.0dip" />
+    </LinearLayout>
+    
+</LinearLayout>

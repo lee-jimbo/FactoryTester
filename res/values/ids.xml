@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="LinerLayout_comm_info" />
+    <item type="id" name="LinerLayout_file_sys_info" />
+    <item type="id" name="LinerLayout_partition_info" />
+    <item type="id" name="comm_info" />
+    <item type="id" name="file_sys_info" />
+    <item type="id" name="partition_info" />
+    <item type="id" name="all_bt_ok">false</item>
+    <item type="id" name="all_bt_failed">false</item>
+    <item type="id" name="audio_bt_ok">false</item>
+    <item type="id" name="audio_bt_failed">false</item>
+    <item type="id" name="LinearLayout">false</item>
+    <item type="id" name="Display_lcd_on">false</item>
+    <item type="id" name="Display_lcd_off">false</item>
+    <item type="id" name="display_bt_ok">false</item>
+    <item type="id" name="display_bt_failed">false</item>
+    <item type="id" name="status">false</item>
+    <item type="id" name="level">false</item>
+    <item type="id" name="scale">false</item>
+    <item type="id" name="health">false</item>
+    <item type="id" name="voltage">false</item>
+    <item type="id" name="temperature">false</item>
+    <item type="id" name="technology">false</item>
+    <item type="id" name="uptime">false</item>
+    <item type="id" name="battery_bt_ok">false</item>
+    <item type="id" name="battery_bt_failed">false</item>
+    <item type="id" name="ble_state_id">false</item>
+    <item type="id" name="ble_result_id">false</item>
+    <item type="id" name="ble_con_id">false</item>
+    <item type="id" name="ble_bt_ok">false</item>
+    <item type="id" name="ble_bt_failed">false</item>
+    <item type="id" name="camera_view">false</item>
+    <item type="id" name="subcamera_take">false</item>
+    <item type="id" name="camera_take">false</item>
+    <item type="id" name="camera_btok">false</item>
+    <item type="id" name="camera_btfailed">false</item>
+    <item type="id" name="gps_state_id">false</item>
+    <item type="id" name="gps_satellite_id">false</item>
+    <item type="id" name="gps_signal_id">false</item>
+    <item type="id" name="gps_result_id">false</item>
+    <item type="id" name="gps_time_id">false</item>
+    <item type="id" name="gps_bt_ok">false</item>
+    <item type="id" name="gps_bt_failed">false</item>
+    <item type="id" name="gsensor_iv_img">false</item>
+    <item type="id" name="gsensor_tv_info">false</item>
+    <item type="id" name="gsensor_bt_ok">false</item>
+    <item type="id" name="gsensor_bt_failed">false</item>
+    <item type="id" name="mic_bt_start">false</item>
+    <item type="id" name="uvMeter">false</item>
+    <item type="id" name="bt_ok">false</item>
+    <item type="id" name="bt_failed">false</item>
+    <item type="id" name="keycode_info">false</item>
+    <item type="id" name="keycode_grid">false</item>
+    <item type="id" name="keycode_bt_ok">false</item>
+    <item type="id" name="keycode_bt_failed">false</item>
+    <item type="id" name="imgview">false</item>
+    <item type="id" name="test_color_text1">false</item>
+    <item type="id" name="lsensor_accuracy">false</item>
+    <item type="id" name="lsensor_value">false</item>
+    <item type="id" name="lsensor_tips">false</item>
+    <item type="id" name="lsensor_bt_ok">false</item>
+    <item type="id" name="lsensor_bt_failed">false</item>
+    <item type="id" name="main_bt_autotest">false</item>
+    <item type="id" name="main_bt_alltest">false</item>
+    <item type="id" name="main_grid">false</item>
+    <item type="id" name="factor_button">false</item>
+    <item type="id" name="memory_bt_ok">false</item>
+    <item type="id" name="memory_bt_failed">false</item>
+    <item type="id" name="mic_tips">false</item>
+    <item type="id" name="mic_bt_ok">false</item>
+    <item type="id" name="mic_bt_failed">false</item>
+    <item type="id" name="speaker_bt_ok">false</item>
+    <item type="id" name="speaker_bt_failed">false</item>
+    <item type="id" name="mic_tv_status">false</item>
+    <item type="id" name="LinearLayout01">false</item>
+    <item type="id" name="OrientText">false</item>
+    <item type="id" name="ivCompass">false</item>
+    <item type="id" name="OrientValue">false</item>
+    <item type="id" name="msensor_bt_ok">false</item>
+    <item type="id" name="msensor_bt_failed">false</item>
+    <item type="id" name="proximity">false</item>
+    <item type="id" name="tips">false</item>
+    <item type="id" name="psensor_bt_ok">false</item>
+    <item type="id" name="psensor_bt_failed">false</item>
+    <item type="id" name="report_success">false</item>
+    <item type="id" name="report_failed">false</item>
+    <item type="id" name="report_default">false</item>
+    <item type="id" name="sdcard_info">false</item>
+    <item type="id" name="sdcard_bt_ok">false</item>
+    <item type="id" name="sdcard_bt_failed">false</item>
+    <item type="id" name="signal_bt_ok">false</item>
+    <item type="id" name="signal_bt_failed">false</item>
+    <item type="id" name="simcard_sim1_info">false</item>
+    <item type="id" name="simcard_sim2_info">false</item>
+    <item type="id" name="simcard_bt_ok">false</item>
+    <item type="id" name="simcard_bt_failed">false</item>
+    <item type="id" name="touchscreen_bt_ok">false</item>
+    <item type="id" name="touchscreen_bt_failed">false</item>
+    <item type="id" name="vibrator_bt_ok">false</item>
+    <item type="id" name="vibrator_bt_failed">false</item>
+    <item type="id" name="wifi_state_id">false</item>
+    <item type="id" name="wifi_result_id">false</item>
+    <item type="id" name="wifi_con_id">false</item>
+    <item type="id" name="wifi_resinfo_id">false</item>
+    <item type="id" name="wifi_bt_ok">false</item>
+    <item type="id" name="wifi_bt_failed">false</item>
+    <item type="id" name="ygps_bt_ok">false</item>
+    <item type="id" name="ygps_bt_failed">false</item>
+    
+    <item type="id" name="print_ok">false</item>
+    <item type="id" name="print_failed">false</item>
+    
+    <item type="id" name="scroll_view_info">false</item>
+    <item type="id" name="text_view_info">false</item>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/mic_bt_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/Mic_start"
+            android:textSize="20.0dip" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <com.mediatek.factorymode.VUMeter
+            android:id="@id/uvMeter"
+            android:layout_width="150.0px"
+            android:layout_height="60.0px"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/mic_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Mic_operation"
+        android:textColor="@color/Green"
+        android:textSize="20.0dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@id/mic_bt_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_weight="0.5"
+            android:text="@string/Success"
+            android:textSize="25.0dip" />
+
+        <Button
+            android:id="@id/mic_bt_failed"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_weight="0.5"
+            android:text="@string/Failed"
+            android:textSize="25.0dip" />
+    </LinearLayout>
+
+
+</LinearLayout>

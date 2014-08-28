@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.5">
+
+
+
+        <com.mediatek.factorymode.TouchView
+            android:id="@+id/toucheview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/touchscreen_bt_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/Success"
+            android:textSize="20.0dip" />
+
+
+
+        <Button
+            android:id="@+id/touchscreen_bt_failed"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Failed"
+            android:textSize="20.0dip" />
+
+    </LinearLayout>
+</LinearLayout>

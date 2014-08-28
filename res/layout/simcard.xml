@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0dip" android:id="@id/simcard_sim1_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="20.0dip" android:id="@id/simcard_sim2_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textSize="25.0dip" android:id="@id/simcard_bt_ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Success" android:layout_weight="0.8" />
+        <Button android:textSize="25.0dip" android:id="@id/simcard_bt_failed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Failed" android:layout_weight="0.2" />
+    </LinearLayout>
+</LinearLayout>

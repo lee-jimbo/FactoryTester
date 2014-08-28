@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="recording_current_shot_text">#ffffffff</color>
+    <color name="gray">#ffd3d3d3</color>
+    <color name="black">#ff000000</color>
+    <color name="Green">#ff00ff00</color>
+    <color name="Red">#ffff0000</color>
+    <color name="Blue">#ff0000ff</color>
+</resources>

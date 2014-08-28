@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15" >
+
+        <SurfaceView
+            android:id="@id/camera_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15.0dip"
+            android:layout_toLeftOf="@id/subcamera_take" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.85" >
+
+        <Button
+            android:id="@id/camera_take"
+            android:layout_width="wrap_content"
+            android:layout_height="100.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:text="@string/Camera_takepic"
+            android:textColor="@color/Blue"
+            android:textSize="20.0dip" />
+
+        <Button
+            android:id="@id/camera_btok"
+            android:layout_width="wrap_content"
+            android:layout_height="100.0dip"
+            android:layout_alignParentRight="true"
+            android:text="@string/Success"
+            android:textSize="20.0dip" />
+
+        <Button
+            android:id="@id/camera_btfailed"
+            android:layout_width="wrap_content"
+            android:layout_height="100.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/Failed"
+            android:textSize="20.0dip" />
+    </RelativeLayout>
+
+</LinearLayout>

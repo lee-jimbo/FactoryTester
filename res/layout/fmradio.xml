@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/fm_search"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:layout_weight="0.50"
+            android:text="@string/Fmsearch"
+            android:textSize="20.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button
+            android:id="@+id/fm_bt_ok"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.63"
+            android:text="@string/Success"
+            android:textSize="25.0dip" />
+        <Button android:textSize="25.0dip" 
+           	android:id="@+id/fm_bt_failed" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:text="@string/Failed" 
+	android:layout_weight="0.2" />
+    </LinearLayout>
+</LinearLayout>
